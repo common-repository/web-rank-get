@@ -1,0 +1,64 @@
+div.inside ul {
+	margin-left: 20px;
+}
+
+div.inside ul li {
+	list-style: square;
+	line-height:16px;
+}
+
+div.inside a {
+	font-family: 'Lucida Grande', Verdana, Arial, 'Bitstream Vera Sans', sans-serif;
+	text-decoration: none;
+}
+div.inside a:hover, div.inside a.rsswidget:hover {
+	text-decoration: underline;
+}
+
+.text, .select {
+	width: 250px;
+}
+
+.postbox p {
+	text-align:left; 
+	margin: 0 10px 10px 10px; 
+	font-size: 13px; 
+	line-height: 150%;
+}
+
+.postbox pre {
+	margin: 5px 10px; 
+	padding:4px; 
+	background: lightyellow;
+}
+
+.webrankget {
+	text-align: center;
+	margin: auto; 
+	width: 400px;
+}
+
+.webrankgetgoogle {
+	text-align: center;
+	margin: 5px; 
+	width: 150px;
+	display: inline;
+}
+
+.webrankgetalexa {
+	text-align: center;
+	margin: 5px; 
+	width: 150px;
+	display: inline;
+}
+
+#webrankget-progress-wrapper {
+  border: 1px solid #000000;
+  background-color: transparent;
+  width: 100px;
+  height: 5px;
+}
+#webrankget-progress-value {
+  background-color: green;
+  height: 5px;
+}
